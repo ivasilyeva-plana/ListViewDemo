@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ListViewDemo"
+             xmlns:custom="clr-namespace:ListViewDemo.Controls"
+             x:Class="ListViewDemo.MainPage"
+             BackgroundColor="White"
+             Padding=" 0, 50">
+<StackLayout>
+    <Label Text="Список моделей" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+    <ListView x:Name="myList" HasUnevenRows="true" ItemsSource="{Binding Phones}"   SelectedItem="{Binding SelectedItem, Mode=TwoWay}">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                    <custom:CustomListCell
+                        ImagePath="{Binding ImagePath}"
+                        ImageWidth="45"
+                        ImageHeight="60"
+                        Title="{Binding Title}"
+                        Detail="{Binding Company, StringFormat='Флагман компании {0}'}"/>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</StackLayout>
+</ContentPage>

@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{370D11A2-4F1E-46F3-9FA7-1E32AADCC9B7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ListViewDemo/Controls/CustomListCell.cs">
+    <Files>
+      <File FileName="ListViewDemo/MainPage.xaml.cs" Line="41" Column="44" />
+      <File FileName="ListViewDemo/MainPage.xaml" Line="22" Column="16" />
+      <File FileName="ListViewDemo/Models/Phone.cs" Line="13" Column="1" />
+      <File FileName="ListViewDemo/Controls/CustomListCell.cs" Line="6" Column="43" />
+      <File FileName="ListViewDemo/ViewModels/MainPageViewModel.cs" Line="49" Column="45" />
+      <File FileName="ListViewDemo.iOS/PlatformCode/Renderers/MenuViewCellRenderer.cs" Line="25" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ListViewDemo FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.ListViewDemo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7C7BC865-2A20-46C2-A569-ACC28878EAD4" />
+  <MultiItemStartupConfigurations />
+</Properties>
